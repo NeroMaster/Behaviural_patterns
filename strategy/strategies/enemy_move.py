@@ -1,0 +1,6 @@
+from enum import Enum
+
+class EnemyMove(Enum):
+    HORSEMAN_ATTACK = "HORSEMAN_ATTACK"
+    ARROW_VALLEY = "ARROW_VALLEY"
+    TACTICAL_WAITING = "TACTICAL_WAITING"
